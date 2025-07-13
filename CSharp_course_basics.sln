@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.14.36301.6 d17.14
+VisualStudioVersion = 17.14.36301.6
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FirstAppCsharp", "FirstAppCsharp\FirstAppCsharp.csproj", "{551AEA95-64DD-4C57-B405-D8311C98629B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CsharpSyntax", "CsharpSyntax\CsharpSyntax.csproj", "{A5FCA7EF-953B-4BBB-9805-9DBCBBC94CB7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{551AEA95-64DD-4C57-B405-D8311C98629B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{551AEA95-64DD-4C57-B405-D8311C98629B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{551AEA95-64DD-4C57-B405-D8311C98629B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A5FCA7EF-953B-4BBB-9805-9DBCBBC94CB7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A5FCA7EF-953B-4BBB-9805-9DBCBBC94CB7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A5FCA7EF-953B-4BBB-9805-9DBCBBC94CB7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A5FCA7EF-953B-4BBB-9805-9DBCBBC94CB7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
