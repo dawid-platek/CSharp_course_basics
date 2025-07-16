@@ -13,3 +13,24 @@ string color = Console.ReadLine();
 /* Komentarz
  wieloliniowy
 */
+
+
+// Praca z typami pierwotnymi
+int dailyIncome = 100;
+int day = 12, month = 1;
+
+bool isActive = true;
+
+double price = 97.99;
+
+// byte numberOfBooks = 400;
+
+int distanceCovered;
+distanceCovered = 1000; // Przypisanie wartości do zmiennej
+distanceCovered = 300;
+
+
+// Stałe
+const double Pi = 3.14; // Stała, której wartość nie może być zmieniona
+const decimal MaxValue = 1000000m; // Stała typu decimal
+// MaxValue = 2000000m; // Błąd: nie można zmienić wartości stałej
