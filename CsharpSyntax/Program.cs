@@ -34,3 +34,18 @@ distanceCovered = 300;
 const double Pi = 3.14; // Stała, której wartość nie może być zmieniona
 const decimal MaxValue = 1000000m; // Stała typu decimal
 // MaxValue = 2000000m; // Błąd: nie można zmienić wartości stałej
+
+
+// String
+string name = "Zbyszek";
+
+string color2 = "red";
+
+string emptyString = "";
+string emptyString2 = string.Empty;
+
+Console.WriteLine("Podaj swoje imię: ");
+name = Console.ReadLine();
+Console.WriteLine($"Twoje imię to: {name}");
+
+
