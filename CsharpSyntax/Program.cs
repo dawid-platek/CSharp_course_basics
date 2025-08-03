@@ -49,3 +49,26 @@ name = Console.ReadLine();
 Console.WriteLine($"Twoje imię to: {name}");
 
 
+// Operatory arytmetyczne
+double priceOfTheBook = 50.99;
+int quantity = 10;
+double packingsBooks = 20.25;
+priceOfTheBook += 5; // Zwiększenie ceny o 5
+priceOfTheBook -= 2; // Zmniejszenie ceny o 2
+
+double value = priceOfTheBook * quantity + packingsBooks;
+Console.WriteLine($"Wartość zamówienia: {value} zł");
+
+
+if (priceOfTheBook > 50)
+{
+    Console.WriteLine("Cena jest wyższa od 50");
+}
+
+priceOfTheBook--; // Zmniejszenie ceny o 1
+priceOfTheBook++; // Zwiększenie ceny o 1
+
+bool test;
+int count;
+Console.ReadLine(); // Czeka na naciśnięcie klawisza Enter przed zakończeniem programu
+
