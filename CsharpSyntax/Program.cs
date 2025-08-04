@@ -1,14 +1,15 @@
-﻿Console.WriteLine("Wypisany tekst musi znajdować się w podwójnych cudzysłowach.");
+﻿#if false
+Console.WriteLine("Wypisany tekst musi znajdować się w podwójnych cudzysłowach.");
 
 Console.WriteLine("Podaj swój ulubiony kolor: ");
 string color = Console.ReadLine();
 
-//string color2 = Console.ReadLine();
-//string Color2 = Console.ReadLine();
-//string color_2 = Console.ReadLine();
-//string Color_2 = Console.ReadLine();
+string color2 = Console.ReadLine();
+string Color2 = Console.ReadLine();
+string color_2 = Console.ReadLine();
+string Color_2 = Console.ReadLine();
 
-// string 2Color = Console.ReadLine(); // Błąd: nazwa zmiennej nie może zaczynać się od cyfry
+string 2Color = Console.ReadLine(); // Błąd: nazwa zmiennej nie może zaczynać się od cyfry
 
 /* Komentarz
  wieloliniowy
@@ -71,4 +72,20 @@ priceOfTheBook++; // Zwiększenie ceny o 1
 bool test;
 int count;
 Console.ReadLine(); // Czeka na naciśnięcie klawisza Enter przed zakończeniem programu
+#endif
 
+int intMinValue = int.MinValue;
+int intMaxValue = int.MaxValue;
+
+char userChar = 'a'; // Pojedynczy znak w pojedynczych cudzysłowach
+char upperVersion = char.ToUpper(userChar); // Konwersja na wielką literę
+
+bool isLetter = char.IsLetter(userChar); // Sprawdzenie, czy znak jest literą
+bool isDigit = char.IsDigit(userChar); // Sprawdzenie, czy znak jest cyfrą
+bool isPunctuation = char.IsPunctuation(userChar); // Sprawdzenie, czy jest to znak interpunkcyjny
+bool isWhiteSpace = char.IsWhiteSpace(userChar); // Sprawdzenie, czy jest to znak białej spacji
+bool isLower = char.IsLower(userChar); // Sprawdzenie, czy jest to mała litera
+bool isUpper = char.IsUpper(userChar); // Sprawdzenie, czy jest to wielka litera
+
+
+Console.ReadLine(); // Czeka na naciśnięcie klawisza Enter przed zakończeniem programu
